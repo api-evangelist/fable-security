@@ -1,0 +1,63 @@
+generated: '2026-07-19'
+method: searched
+source: https://fablesecurity.com/resources/changelog/
+scheme: calendar-date
+current: '2026-07-16'
+docs: https://fablesecurity.com/resources/changelog/
+notes: >-
+  Fable Security publishes a dated (calendar) product changelog under its
+  Resources section. Entries mix platform/feature releases with new training
+  and briefing content batches. No semantic version numbers are used.
+entries:
+- date: '2026-07-16'
+  title: Briefing Agent
+  type: feature
+  breaking: false
+  highlights: >-
+    AI-powered Briefing Agent lets security teams generate custom,
+    audience-targeted video briefings from emerging threats in under 10 minutes,
+    with policy alignment and targeted delivery options.
+- date: '2026-07-02'
+  title: New Briefings Target Trending Threats
+  type: content
+  breaking: false
+  highlights: >-
+    Content batch covering active threats (NPM supply-chain attacks, e-vite
+    phishing scams) plus compliance and onboarding refreshes; 135 new media
+    assets.
+- date: '2026-06-26'
+  title: AI Governance and Data Classification Training
+  type: content
+  breaking: false
+  highlights: >-
+    Role-specific briefings for legal teams on responsible AI tool use (Gemini,
+    Copilot, ChatGPT, Claude) and Microsoft 365 sensitivity labeling.
+- date: '2026-06-16'
+  title: Organization View Drill-Down
+  type: feature
+  breaking: false
+  highlights: >-
+    Employee risk drill-down panels showing cohort memberships, training
+    history, and phishing results, with manager filtering and admin access
+    controls.
+- date: '2026-06-15'
+  title: AI Adoption and Data Sensitivity Briefings
+  type: content
+  breaking: false
+  highlights: >-
+    Refreshed general AI-tool adoption module and new Microsoft 365 sensitivity
+    labeling briefing targeting high-exposure human-risk areas.
+- date: '2026-06-05'
+  title: Coyote Banking Trojan and AI Notetakers
+  type: content
+  breaking: false
+  highlights: >-
+    New briefings addressing active banking-malware threats and third-party
+    data-exposure risks from AI meeting-transcription tools.
+- date: '2026-05-21'
+  title: SOX Compliance Course Rebuild
+  type: content
+  breaking: false
+  highlights: >-
+    Completed Version 2 of the SOX compliance course with auditor-reviewed
+    scripts; eight compliance courses totaling 63 videos.

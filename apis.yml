@@ -1,8 +1,14 @@
 aid: fable-security
 name: Fable Security
-description: 'Fable Security is a company surfaced as a portfolio company of redpoint-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Fable Security is a human risk management (HRM) platform that uses AI to reduce
+  employee-driven security risk. The product combines phishing simulations and resilience testing,
+  bite-sized security awareness and compliance training, behavioral interventions (AI-generated video
+  briefings, nudges, and chat), human-risk reporting and analytics, rapid threat-response briefings for
+  emerging threats, and secure AI-enablement programs. Fable is used across healthcare, financial
+  services, and technology organizations to measure employee risk, deliver targeted training, and change
+  unsafe security behavior. The company is backed by Redpoint Ventures. Note: Fable Security does not
+  currently publish a public API, developer portal, or SDK; this profile captures the company''s public
+  web, security posture, and product changelog surface.'
 url: https://raw.githubusercontent.com/api-evangelist/fable-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://fablesecurity.com/wp-content/uploads/2026/06/open-graph-JUN26.jpg
 tags:
 - Company
 - Cybersecurity
+- Human Risk Management
+- Security Awareness Training
+- Phishing Simulation
+- Behavioral Security
+- Compliance Training
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fable-security-domain-security.yml
+- type: ChangeLog
+  url: changelog/fable-security-changelog.yml
+- type: Blog
+  url: https://fablesecurity.com/resources/
+- type: Login
+  url: https://app.fablesecurity.com/sign-in/
+- type: PrivacyPolicy
+  url: https://fablesecurity.com/privacy-policy/
+- type: TermsOfService
+  url: https://fablesecurity.com/terms-of-service/
 - type: Website
   url: https://www.fablesecurity.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
